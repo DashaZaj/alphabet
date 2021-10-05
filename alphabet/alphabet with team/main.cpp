@@ -6,7 +6,7 @@ using namespace std;
 void b(array<string, 6> &s)
 {
     s[0] += "||===\\ ";
-    s[1] += "||    | ";
+    s[1] += "||    |";
     s[2] += "||__ //";
     s[3] += "||   \\ ";
     s[4] += "||    |";
@@ -16,6 +16,7 @@ void b(array<string, 6> &s)
 int main()
 {
     array<string, 6> screen;
+    b(screen);
     b(screen);
 
     for (int i=0; i<6; i++)
