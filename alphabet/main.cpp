@@ -83,6 +83,16 @@ void r(array<string, 6> &s)
     s[5] += " ||  \\\\  ";
 }
 
+void T(array<string, 6> &s)
+{
+    s[0] += "==========";
+    s[1] += "    ||    ";
+    s[2] += "    ||    ";
+    s[3] += "    ||    ";
+    s[4] += "    ||    ";
+    s[5] += "    ||    ";
+}
+
 void v(array<string, 6> &s)
 {
     s[0] += "\\          //";
@@ -115,6 +125,7 @@ int main()
     L(screen);
     P(screen);
     r(screen);
+    T(screen);
     v(screen);
     z(screen);
     for (int i=0; i<6; i++)
