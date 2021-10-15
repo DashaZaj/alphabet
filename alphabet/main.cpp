@@ -63,6 +63,16 @@ void L(array<string, 6> &s)
     s[5] += " \\\\_____//";
 }
 
+void P(array<string, 6 > &s)
+{
+    s[0] += " ||===\\\\";
+    s[1] += " ||   ||";
+    s[2] += " ||___||";
+    s[3] += " ||----/";
+    s[4] += " ||     ";
+    s[5] += " ||     ";
+}
+
 void r(array<string, 6> &s)
 {
     s[0] += " ||===\\\\ ";
@@ -103,6 +113,7 @@ int main()
     D(screen);
     H(screen);
     L(screen);
+    P(screen);
     r(screen);
     v(screen);
     z(screen);
