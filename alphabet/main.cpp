@@ -113,6 +113,16 @@ void v(array<string, 6> &s)
     s[5] += "     \\//     ";
 }
 
+void w(array<string, 6> &s )
+{
+  s[0] +=" \\\\                      // ";
+  s[1] +="  \\\\        //\\\\        //  ";
+  s[2] +="   \\\\      //  \\\\      //   ";
+  s[3] +="    \\\\    //    \\\\    //    ";
+  s[4] +="     \\\\  //      \\\\  //     ";
+  s[5] +="      \\\\//        \\\\//      ";
+}
+
 void x(array<string, 6> &s )
 {
   s[0] +="  \\\\    // ";
@@ -147,6 +157,7 @@ int main()
     r(screen);
     t(screen);
     v(screen);
+    w(screen);
     x(screen);
     z(screen);
     for (int i=0; i<6; i++)
