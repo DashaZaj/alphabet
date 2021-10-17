@@ -223,6 +223,16 @@ void x(array<string, 6> &s )
   s[5] +="  //    \\\\ ";
 }
 
+void y(array < string, 6> &s)
+{
+    s[0] += " \\\\    // ";
+    s[1] += "  \\\\  //  ";
+    s[2] += "   \\\\//   ";
+    s[3] += "    ||    ";
+    s[4] += "    ||    ";
+    s[5] += "    ||    ";
+}
+
 void z(array<string, 6> &s)
 {
     s[0] += " ______ ";
@@ -258,6 +268,7 @@ int main()
     v(screen);
     w(screen);
     x(screen);
+    y(screen);
     z(screen);
     for (int i=0; i<6; i++)
        cout << screen[i] << endl;
