@@ -53,6 +53,16 @@ void e(array<string, 6> &s)
    s[5] += "||_____ ";
 }
 
+void f(array<string, 6> &s)
+{
+    s[0] += " ||_____ ";
+    s[1] += " ||      ";
+    s[2] += " ||_____ ";
+    s[3] += " ||      ";
+    s[4] += " ||      ";
+    s[5] += " ||      ";
+}
+
 void g(array<string, 6> &s )
 {
   s[0] +="    ===   ";
@@ -231,6 +241,7 @@ int main()
     c(screen);
     d(screen);
     e(screen);
+    f(screen);
     g(screen);
     h(screen);
     i(screen);
