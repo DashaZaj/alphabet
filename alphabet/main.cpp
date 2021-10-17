@@ -163,6 +163,16 @@ void p(array<string, 6 > &s)
     s[5] += " ||     ";
 }
 
+void q(array < string, 6> &s)
+{ 
+    s[0] += "   _____     ";
+    s[1] += "  ||   ||    ";
+    s[2] += "  ||   ||    ";
+    s[3] += "  ||   ||    ";
+    s[4] += "  ||   ||    ";
+    s[5] += "   ----\\\\    ";
+}
+
 void r(array<string, 6> &s)
 {
     s[0] += " ||===\\\\ ";
@@ -272,6 +282,7 @@ int main()
     n(screen);
     o(screen);
     p(screen);
+    q(screen);
     r(screen);
     s(screen);
     t(screen);
