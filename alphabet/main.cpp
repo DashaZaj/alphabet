@@ -63,6 +63,16 @@ void h(array<string, 6> &s)
     s[5] += " ||     | ";
 }
 
+void i(array < string, 6> &s)
+{
+    s[0] += "  ======  ";
+    s[1] += "    ||    ";
+    s[2] += "    ||    ";
+    s[3] += "    ||    ";
+    s[4] += "    ||    ";
+    s[5] += "  ======  ";
+}
+
 void l(array<string, 6> &s)
 {
     s[0] += " ||       ";
@@ -152,6 +162,7 @@ int main()
     d(screen);
     e(screen);
     h(screen);
+    i(screen);
     l(screen);
     p(screen);
     r(screen);
