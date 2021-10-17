@@ -123,6 +123,16 @@ void m(array<string, 6> &s)
     s[5] += " ||       ||  ";
 }
 
+void n(array<string, 6> &s)
+{
+    s[0] += " |\\     | ";
+    s[1] += " | \\    | ";
+    s[2] += " |  \\   | ";
+    s[3] += " |   \\  | ";
+    s[4] += " |    \\ | ";
+    s[5] += " |     \\| ";
+}
+
 void o(array<string, 6> &s )
 {
   s[0] +="     ====     ";
@@ -228,6 +238,7 @@ int main()
     k(screen);
     l(screen);
     m(screen);
+    n(screen);
     o(screen);
     p(screen);
     r(screen);
