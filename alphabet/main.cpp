@@ -3,12 +3,25 @@
 
 using namespace std;
 
+void s(array<string, 6> &s )
+
+{
+  s[0] +="      __    ";
+  s[1] +="    //      ";
+  s[2] +="   //       ";
+  s[3] +="   \\\\      ";
+  s[4] +="    \\\\     ";
+  s[5] +="  __//      ";
+}
+
 int main()
 {
     array<string, 6> screen;
+    s(screen);
+    s(screen);
 
     for (int i=0; i<6; i++)
+    {
         cout << screen[i] << endl;
-
-    return 0;
+    }
 }
