@@ -103,6 +103,16 @@ void r(array<string, 6> &s)
     s[5] += " ||  \\\\  ";
 }
 
+void s(array<string, 6> &s )
+{
+  s[0] += " //--\\ ";
+  s[1] += " ||    ";
+  s[2] += "  \\\\   ";
+  s[3] += "   \\\\  ";
+  s[4] += "    \\\\ ";
+  s[5] += " \\__// ";
+}
+
 void t(array<string, 6> &s)
 {
     s[0] += "==========";
@@ -166,6 +176,7 @@ int main()
     l(screen);
     p(screen);
     r(screen);
+    s(screen);
     t(screen);
     v(screen);
     w(screen);
