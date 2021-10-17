@@ -83,6 +83,16 @@ void l(array<string, 6> &s)
     s[5] += " \\\\_____//";
 }
 
+void o(array<string, 6> &s )
+{
+  s[0] +="      ====      ";
+  s[1] +="    ||    ||    ";
+  s[2] +="    ||    ||    ";
+  s[3] +="    ||    ||    ";
+  s[4] +="    ||    ||    ";
+  s[5] +="      ====      ";
+}
+
 void p(array<string, 6 > &s)
 {
     s[0] += " ||===\\\\";
@@ -174,6 +184,7 @@ int main()
     h(screen);
     i(screen);
     l(screen);
+    o(screen);
     p(screen);
     r(screen);
     s(screen);
@@ -183,6 +194,6 @@ int main()
     x(screen);
     z(screen);
     for (int i=0; i<6; i++)
-        cout << screen[i] << endl;
+       cout << screen[i] << endl;
     return 0;
 }
