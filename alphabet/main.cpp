@@ -95,7 +95,7 @@ void i(array < string, 6> &s)
 
 void j(array<string, 6> &s)
 {
-    s[0] += "     00 ";
+    s[0] += "_______ ";
     s[1] += "     || ";
     s[2] += "     || ";
     s[3] += "     || ";
@@ -193,6 +193,16 @@ void t(array<string, 6> &s)
     s[5] += "    ||    ";
 }
 
+void u(array < string, 6> &s)
+{
+    s[0] += " ||     || ";
+    s[1] += " ||     || ";
+    s[2] += " ||     || ";
+    s[3] += " ||     || ";
+    s[4] += " ||     || ";
+    s[5] += "  \\_____/  ";
+}
+
 void v(array<string, 6> &s)
 {
     s[0] += "\\          //";
@@ -265,6 +275,7 @@ int main()
     r(screen);
     s(screen);
     t(screen);
+    u(screen);
     v(screen);
     w(screen);
     x(screen);
