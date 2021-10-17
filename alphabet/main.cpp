@@ -33,7 +33,7 @@ void c(array<string, 6> &s)
   s[5] +=  "   \\\\\\\\\\\\    ";
 }
 
-void D(array<string, 6> &s)
+void d(array<string, 6> &s)
 {
   s[0] += "|======\\\\  ";
   s[1] += "|       || ";
@@ -43,7 +43,17 @@ void D(array<string, 6> &s)
   s[5] += "|------//  ";
 }
 
-void H(array<string, 6> &s)
+void e(array<string, 6> &s)
+{
+   s[0] += " ______ ";
+   s[1] += "||      ";
+   s[2] += "||      ";
+   s[3] += "||___   ";
+   s[4] += "||      ";
+   s[5] += "||_____ ";
+}
+
+void h(array<string, 6> &s)
 {
     s[0] += " ||     | ";
     s[1] += " ||     | ";
@@ -53,7 +63,7 @@ void H(array<string, 6> &s)
     s[5] += " ||     | ";
 }
 
-void L(array<string, 6> &s)
+void l(array<string, 6> &s)
 {
     s[0] += " ||       ";
     s[1] += " ||       ";
@@ -63,7 +73,7 @@ void L(array<string, 6> &s)
     s[5] += " \\\\_____//";
 }
 
-void P(array<string, 6 > &s)
+void p(array<string, 6 > &s)
 {
     s[0] += " ||===\\\\";
     s[1] += " ||   ||";
@@ -83,7 +93,7 @@ void r(array<string, 6> &s)
     s[5] += " ||  \\\\  ";
 }
 
-void T(array<string, 6> &s)
+void t(array<string, 6> &s)
 {
     s[0] += "==========";
     s[1] += "    ||    ";
@@ -120,12 +130,13 @@ int main()
     a(screen);
     b(screen);
     c(screen);
-    D(screen);
-    H(screen);
-    L(screen);
-    P(screen);
+    d(screen);
+    e(screen);
+    h(screen);
+    l(screen);
+    p(screen);
     r(screen);
-    T(screen);
+    t(screen);
     v(screen);
     z(screen);
     for (int i=0; i<6; i++)
