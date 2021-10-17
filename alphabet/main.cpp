@@ -53,6 +53,16 @@ void e(array<string, 6> &s)
    s[5] += "||_____ ";
 }
 
+void g(array<string, 6> &s )
+{
+  s[0] +="    ===   ";
+  s[1] +="  //      " ;
+  s[2] +=" ||       ";
+  s[3] +=" ||   === ";
+  s[4] +="  \\\\   // ";
+  s[5] +="    ===   ";
+}
+
 void h(array<string, 6> &s)
 {
     s[0] += " ||     | ";
@@ -95,12 +105,12 @@ void l(array<string, 6> &s)
 
 void o(array<string, 6> &s )
 {
-  s[0] +="      ====      ";
-  s[1] +="    ||    ||    ";
-  s[2] +="    ||    ||    ";
-  s[3] +="    ||    ||    ";
-  s[4] +="    ||    ||    ";
-  s[5] +="      ====      ";
+  s[0] +="     ====     ";
+  s[1] +="   ||    ||   ";
+  s[2] +="   ||    ||   ";
+  s[3] +="   ||    ||   ";
+  s[4] +="   ||    ||   ";
+  s[5] +="     ====     ";
 }
 
 void p(array<string, 6 > &s)
@@ -191,6 +201,7 @@ int main()
     c(screen);
     d(screen);
     e(screen);
+    g(screen);
     h(screen);
     i(screen);
     k(screen);
